@@ -1,0 +1,17 @@
+{
+  "name": "realtime-mousetracker-server",
+  "version": "1.0.0",
+  "description": "Realtime mouse tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "Bekzod <mirzaahmedov.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.0"
+  }
+}
